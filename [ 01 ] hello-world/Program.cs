@@ -7,7 +7,8 @@ namespace __01___hello_world
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.Beep();
+            for( int i = 0; i< 1000000; i++)
+                Console.Beep();
         }
     }
 }
