@@ -1,0 +1,14 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "restore": "dotnet restore",
+    "build":"dotnet build",
+    "start":"dotnet run",
+    "all":"npm run restore && npm run build && npm run start"
+  },
+  "author": "",
+  "license": "ISC"
+}
